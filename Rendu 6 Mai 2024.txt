@@ -1,0 +1,18 @@
+Github : https://github.com/daphnechristodoux/LED-Harry-Potter.git
+
+je suis désolé d'avoir du enclencher mon tiers-temps. J'ai eu plusieurs problèmes. 
+D'abord le Wifi du Rapsberry ne démarrait pas, ça m'a fait perdre une heure, puis avec le même programme 
+il a démarré et depuis il fonctionne OK (et à la même adresse IP chaque fois, celle que j'ai mis dans les programmes)
+Ensuite j'ai mis du temps à mettre bien en face les GET depuis Harry Potter en JS, 
+et le Python pour piloter les LEDs.
+
+A la fin, j'ai eu des erreurs réseau, "failed to fetch" d'un coté, 
+"Erreur lors de la requête GET: [Errno 103] ECONNABORTED" de l'autre.
+J'ai essayé plusieurs heures dimanche soir, cherché sur internet, je n'ai pas réussi à corriger 
+(pareil depuis le terminal du Navigateur en mode Inspecter, pareil en changeant de browser, pareil depuis POSTMAN, 
+ça ne fonctionnait pas ... j'ai vu des propositions de correction qui touchaient à la Sécurité du Navigateur, 
+pas simples, pas claires et risquées, ou bien désactiver les firewalls, je n'ai pas fait ça)
+
+Je rends mes programmes dans le GitHub
+Y compris les petits codes qui allument la LED en 5 couleurs (fonctionnent bien), le violet et le jaune
+en plus des 3 RGB, et un code pour éteindre la LED
