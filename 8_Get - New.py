@@ -8,7 +8,7 @@ wlan = network.WLAN(network.STA_IF)
 wlan.active(True)  # Active le mode client Wi-Fi
 
 ssid = 'Myrtille'
-password = '32C7JC5RBK'
+password = '123456'
 wlan.connect(ssid, password)  # Connecte la Raspberry Pi au réseau Wi-Fi, affiche le password ce qui n'est pas bien
 
 # Attends jusqu'à ce que la connexion Wi-Fi soit établie
